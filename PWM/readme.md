@@ -25,7 +25,7 @@ For 100ms wave
 ```diff
 -Match value of Period = PWM Time Period / Timer Increment time
 ```
-PWMMR0 = 100ms/10ms = 10 
+**PWMMR0 = 100ms/10ms = 10 **
  
 
 For 50 % Duty Cycle = T ON = 50ms
