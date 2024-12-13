@@ -31,7 +31,7 @@ For 100ms wave
 For 50 % Duty Cycle = T ON = 50ms
 >Match value of high = 50ms/10ms = 5
 
-**PWMMR3=5**
+>**PWMMR3=5**
 
 
 
