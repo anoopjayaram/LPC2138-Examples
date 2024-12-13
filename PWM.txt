@@ -1,10 +1,18 @@
 
 /*Calculations*/
 /*
+
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
 Q : Timer time period =10ms
     Fosc =15MHz
     
-`rgb(9, 105, 218)` Timer Frequency = Fosc /(PRESCALE +1)
+ Timer Frequency = Fosc /(PRESCALE +1)
 
 Timer Frequency = 1/10ms
 Fosc =  15MHz
