@@ -2,14 +2,14 @@
 /*Calculations*/
 /*
 
-```diff
+
  
 
 Q : Timer time period =10ms
     Fosc =15MHz
-
+```diff
 -Timer Frequency = Fosc /(PRESCALE +1)
-
+```
 Timer Frequency = 1/10ms
 Fosc =  15MHz
 PRESCALE =?
@@ -17,7 +17,8 @@ PRESCALE =?
 PRESCALE = (15MHz * 10Ms)-1
 PRESCALE = 149999
 
-For 100ms wave 
+For 100ms wave
+```diff
 -Match value of Period = PWM Time Period / Timer Increment time
                       = 100ms/10ms = 10
 ```
