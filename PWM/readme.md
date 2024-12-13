@@ -17,19 +17,19 @@ Fosc =  15MHz
 PRESCALE =?
 
 
-PRESCALE = (15MHz * 10Ms)-1
+>PRESCALE = (15MHz * 10Ms)-1
 
-PRESCALE = 149999
+>PRESCALE = 149999
 
 For 100ms wave
 ```diff
 -Match value of Period = PWM Time Period / Timer Increment time
 ```
-**PWMMR0 = 100ms/10ms = 10**
+> **PWMMR0 = 100ms/10ms = 10**
  
 
 For 50 % Duty Cycle = T ON = 50ms
-Match value of high = 50ms/10ms = 5
+>Match value of high = 50ms/10ms = 5
 
 **PWMMR3=5**
 
