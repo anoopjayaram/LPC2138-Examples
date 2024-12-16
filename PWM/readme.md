@@ -6,13 +6,13 @@
  
 
 Q : Timer time period =10ms
-    Fosc =15MHz
+    PCLK =15MHz
 ```diff
 -Timer Frequency = Fosc /(PRESCALE +1)
 ```
 Timer Frequency = 1/10ms
 
-Fosc =  15MHz
+PCLK =  15MHz
 
 PRESCALE =?
 
